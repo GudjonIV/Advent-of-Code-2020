@@ -1,10 +1,12 @@
-# Part 1
+# Author: Guðjón Ingi Valdimarsson
+
 def input(file):
     with open(file) as f:
         inputList = f.read()
         inputList = inputList.split("\n")
     return inputList
 
+# Part 1
 def part1(file):
     data = input(file)
     counter = 0

@@ -1,3 +1,5 @@
+# Author: Guðjón Ingi Valdimarsson
+
 import itertools
 
 def inputFile(file):

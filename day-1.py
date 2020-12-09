@@ -1,4 +1,5 @@
-# Part 1
+# Author: Guðjón Ingi Valdimarsson
+
 def input(file):
     with open(file) as f:
         inputList = f.read().split("\n")
@@ -6,6 +7,7 @@ def input(file):
         inputList.sort()
     return inputList
 
+# Part 1
 def searchInput(inputList):
     n = len(inputList)-1
     for i in range(0, n):

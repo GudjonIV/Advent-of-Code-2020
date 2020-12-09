@@ -1,3 +1,5 @@
+# Author: Guðjón Ingi Valdimarsson
+
 def inputFile(file):
     with open(file) as f:
         data = f.read().split("\n\n")
